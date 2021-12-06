@@ -1,0 +1,13 @@
+resources:
+    - monitoring-namespace.yaml
+    - prometheus/prometheus-pv-local.yaml
+    - prometheus/prometheus-pvc-local.yaml
+    - prometheus/prometheus-cluster-role.yaml
+    - prometheus/prometheus-config.yaml
+    - prometheus/prometheus-deployment.yaml
+    - prometheus/prometheus-service.yaml
+    - grafana/grafana-pv-local.yaml
+    - grafana/grafana-pvc-local.yaml
+    - grafana/grafana-datasource-config.yaml
+    - grafana/grafana-deployment.yaml
+    - grafana/grafana-service.yaml

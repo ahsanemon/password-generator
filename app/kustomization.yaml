@@ -1,0 +1,3 @@
+resources:
+  - pg-deployment.yml
+  - pg-service.yml
